@@ -19,7 +19,6 @@ class GithubBaseClient implements GithubClient {
 	public Response getResponse(final URI url) {
 		return client.target(url)
 				.request()
-				.header("Authorization", "Bearer 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")
 				.get();
 
 	}
