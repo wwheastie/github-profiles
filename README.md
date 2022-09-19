@@ -19,6 +19,12 @@ A web application used to retrieve a Github user profile
 docker-compose up -d --build
 ```
 
+### Example Request
+
+```bash
+http://localhost:8080/api/v1/username/octocat
+```
+
 ### Package Structure
 
 - Shared packages
